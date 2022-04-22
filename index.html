@@ -465,6 +465,31 @@
             <use href="./images/svg/icon.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <h4 class="modal-form-header">Zostaw swoje dane w formularzu poniżej</h4>
+          <label class=""
+            >Imię
+            <input type="text" class="" name="username" />
+          </label>
+          <label class=""
+            >Telefon
+            <input type="phone" class="" name="phone" />
+          </label>
+          <label class=""
+            >Email
+            <input type="email" name="email" />
+          </label>
+          <label class=""
+            >Komentarz
+            <textarea class="" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+          </label>
+          <input class="modal-form-policy" type="checkbox" id="user-policy" name="policy" />
+          <label class="modal-form-policy-text" for="user-policy"
+            >Oświadczam iż akceptuję <a href="#" class="modal-form-policy-link">Regulamin</a> i
+            <a href="#" class="modal-form-policy-link">Politykę Prywatności.</a>
+          </label>
+          <button class="modal-form-button" type="submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
